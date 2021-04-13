@@ -6,6 +6,12 @@
     text-decoration: none;
 }
 
+.offset:before {
+    display: block;
+    content: "";
+    height: 6rem;
+  }
+
 .max-width{
     max-width: 1300px;
     padding: 0 80px;
@@ -19,6 +25,7 @@
     width: 100%;
     padding: 15px 0;
     font-family: "Ubuntu", sans-serif;
+    transition: all 0.3s ease;
 }
 
 .navbar .logo a{
@@ -58,11 +65,15 @@
     display: inline-block;
 }
 
+.navbar.sticky{
+    padding: 15px;
+    background: crimson;
+}
+
 .home{
-    background-image: url("E:\Website1\MyPortFolio\src\images\background.JPEG");
     height: 100vh;
     display: flex;
-    
+    margin-top: 15px;
     color: rgb(0, 0, 0);
     min-height: 500px;
     font-family: "Ubuntu", sans-serif;
@@ -92,12 +103,29 @@
 }
 
 .img-fluid{
-    height: 1000px;
-    display: inline-block;
+    height: 80vh;
 }
 
 .background{
     background-color: rgb(255, 255, 255);
-    
+}   
 
+.about{
+    text-orientation: upright;
+    height: 100vh;
+    /* margin-top: 30rem; */
+    text-align: center;
+    font-size:50px;
+    font-weight: 400;
+    min-height: 500px;
+    color: rgb(91, 91, 242);
+    padding: 15px;
+    /* padding-top: 15px; */
+    transition:step-start
 }
+
+.about .textabout {
+color: black;
+padding: 100px;
+}
+
