@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+/* navbar styling */
+.navbar{
+    background: rgb(91, 91, 242);
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.navbar .logo a{
+    color: cornsilk;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.navbar .logo a span{
+    color: rgb(25, 2, 230);
+
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .menu li a{
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+}
+
+.navbar .menu li a:hover{
+    color: rgb(25, 2, 230);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left:25px;
+    transition: color 0.3s ease ;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+.home{
+    background-image: url("E:\Website1\MyPortFolio\src\images\background.JPEG");
+    height: 100vh;
+    display: flex;
+    
+    color: rgb(0, 0, 0);
+    min-height: 500px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+
+.home .home-content .text1{
+    font-size: 27px;
+}
+
+.home .home-content .text2{
+    font-size:75px;
+    font-weight: 600;
+    margin-left: -3px ;
+}
+
+.home .home-content .text3{
+    font-size: 40px;
+    margin: 5px 0;
+}
+
+.home .home-content .text3 span{
+    color: red;
+}
