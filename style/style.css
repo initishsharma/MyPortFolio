@@ -55,7 +55,7 @@ body {
     text-align: center;
     margin-top: 7vw;
     padding-top: 4vw;
-    margin-bottom: 15vw;
+    /* margin-bottom: 15vw; */
 }
 
 .know1{
@@ -66,16 +66,16 @@ body {
 }
 
 .hero{
-    padding-bottom:5rem;
+    padding-bottom:5vw;
 }
 
 .int{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 }
 
 #about{
-    padding-bottom: 100rem;
+    padding-bottom: 20vw;
 }
 
 
@@ -83,8 +83,22 @@ body {
     position: relative;
     padding-left: 15vw;
     padding-right: 15vw;
+    padding-bottom: 10vw;
 }
 
 .img-fluid{
     size: 1000vw;
 }
+
+
+.know2{
+  text-align: center;
+  padding-top: 10vw;
+  padding-bottom: 30vw;
+}
+
+.container{
+  text-align: center;
+  margin-top: 10px;
+} 
+
