@@ -90,3 +90,14 @@
 .home .home-content .text3 span{
     color: red;
 }
+
+.img-fluid{
+    height: 1000px;
+    display: inline-block;
+}
+
+.background{
+    background-color: rgb(255, 255, 255);
+    
+
+}
