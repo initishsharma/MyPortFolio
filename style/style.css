@@ -53,9 +53,16 @@ body {
 
 .know{
     text-align: center;
-    margin-top: 7rem;
-    padding-top: 4rem;
-    margin-bottom: 30rem;
+    margin-top: 7vw;
+    padding-top: 4vw;
+    margin-bottom: 15vw;
+}
+
+.know1{
+    text-align: center;
+    padding-top: 20vw;
+    padding-right: 20vw;
+    padding-left: 20vw;
 }
 
 .hero{
@@ -69,4 +76,15 @@ body {
 
 #about{
     padding-bottom: 100rem;
+}
+
+
+.new{
+    position: relative;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+.img-fluid{
+    size: 1000vw;
 }
